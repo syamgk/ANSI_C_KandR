@@ -1,0 +1,8 @@
+M5.6	5.6.c	/^main()$/
+MAXLEN	readlines.c	3
+MAXLINES	5.6.c	4
+lineptr	5.6.c	6
+qsort	readlines.c	/^void qsort(char *v[], int left, int right)$/
+readlines	readlines.c	/^int readlines(char *lineptr[], int maxlines,char */
+swap	readlines.c	/^void swap(char *v[], int i, int j)$/
+writelines	readlines.c	/^void writelines(char *lineptr[], int nlines)$/

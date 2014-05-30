@@ -1,0 +1,17 @@
+pot
+hat
+dog
+mat
+bot
+cat
+ant
+lot
+dot
+eat
+sit
+hit
+jit
+lit
+rat
+got
+not

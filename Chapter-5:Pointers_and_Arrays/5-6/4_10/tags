@@ -1,0 +1,13 @@
+BUFSIZE	getch.c	3
+MAXOP	main1.c	5
+MAXVAL	stack.c	4
+Mmain1	main1.c	/^main()$/
+buf	getch.c	5
+bufp	getch.c	6
+function	getop.c	/^void function(char f[])$/
+getch	getch.c	/^int getch(void)$/
+getop	getop.c	/^int getop(char s[])$/
+pop	stack.c	/^double pop(void)$/
+push	stack.c	/^void push(double f)$/
+sp	stack.c	6
+val	stack.c	7

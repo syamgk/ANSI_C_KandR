@@ -1,0 +1,8 @@
+this is a test file for strindex
+
+
+this could be only a solution to find
+whether the function could 
+run properly on files
+but i am not sure....
+what its gonna be...
