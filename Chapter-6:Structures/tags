@@ -1,0 +1,16 @@
+M6-3	6-3.c	/^main()$/
+MAXWORD	6-3.c	6
+addline	6-3.c	/^void addline(struct tnode *p, int linenum)$/
+addtreex	6-3.c	/^struct tnode *addtreex(struct tnode *p, char *w, i/
+lalloc	6-3.c	/^struct linklist *lalloc(void)$/
+left	6-3.c	14
+lines	6-3.c	13
+linklist	6-3.c	7
+lnum	6-3.c	8
+noiseword	6-3.c	/^int noiseword(char *w)$/
+ptr	6-3.c	9
+right	6-3.c	15
+talloc	6-3.c	/^struct tnode *talloc(void)$/
+tnode	6-3.c	11
+treexprint	6-3.c	/^void treexprint(struct tnode *p)$/
+word	6-3.c	12

@@ -4,12 +4,22 @@
 main()
 {
     int i,c;
+	int ts;
+	int pos = 1;
         while ((c = getchar()) != EOF ) {
             if ( c == '\t') {
-                for (i = 0; i < TABSTOP; ++i)
+				ts = TABSTOP - (pos -1) % TABSTOP;
+                for (i = 0; i < ts; ++i) {
                     putchar(32);
-            }
-            else
+					pos++;
+				}
+            } else if( c == '\n') {
+				putchar(c);
+				pos = 1;
+			}
+            else {
                 putchar(c);
+				pos++;
+			}
         }
 }
